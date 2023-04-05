@@ -1,0 +1,15 @@
+.nav__container {
+  @apply snap-center flex justify-between items-center mb-10  p-3  md:px-10 relative;
+}
+.nav__logo__img {
+  @apply w-24 hover:scale-105 lg:w-36;
+}
+.nav__burger {
+  @apply h-10 w-10 bg-burger bg-no-repeat bg-contain select-none hover:scale-105 md:hidden;
+}
+.nav__burger__menu {
+  @apply absolute top-20 right-0 bg-white bg-opacity-30  w-40 pr-3 pl-3 py-2 text-2xl;
+}
+.nav__menu {
+  @apply hidden md:flex md:justify-center md:items-center;
+}

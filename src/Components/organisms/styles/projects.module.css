@@ -1,0 +1,21 @@
+.projects__section {
+  @apply snap-center flex flex-col items-center justify-center  h-screen;
+}
+.projects__title {
+  @apply mb-20 px-10 w-full text-2xl little:text-3xl lg:text-4xl;
+}
+.projects__carousel {
+  @apply cursor-grab overflow-hidden  w-4/5 h-3/5 lg:w-full lg:px-10  border-y-2 border-white;
+}
+.projects__inner__carousel {
+  @apply flex h-full;
+}
+.project__container {
+  @apply min-w-full flex flex-col items-center justify-center lg:min-w-fit lg:mr-10;
+}
+.project__image {
+  @apply h-3/4 rounded-lg pointer-events-none mb-3 border-black border-4 border-opacity-30;
+}
+.project__link {
+  @apply animate-text-anim underline;
+}

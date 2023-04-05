@@ -1,0 +1,15 @@
+.burger__links {
+  @apply mb-3 border-b-2;
+}
+.button__next {
+  @apply text-xl p-2 bg-pink-500 rounded-lg hover:scale-110 active:scale-100 w-fit sm:text-2xl;
+}
+.header__links {
+  @apply mr-5 lg:mr-10 md:text-xl lg:text-2xl hover:scale-110 active:opacity-75 active:scale-100;
+}
+.lang__button__lg {
+  @apply w-10 h-10 mt-2  bg-language bg-no-repeat bg-contain select-none hover:scale-110 active:scale-100;
+}
+.lang__button {
+  @apply w-12 h-12 mt-2  bg-language bg-no-repeat bg-contain select-none hover:scale-110 active:scale-100 md:hidden;
+}

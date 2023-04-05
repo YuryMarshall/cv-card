@@ -1,0 +1,12 @@
+.about__section {
+  @apply snap-center flex flex-col items-center justify-between py-10 px-10 h-screen;
+}
+.quote {
+  @apply text-xl little:text-3xl lg:text-4xl;
+}
+.text__container {
+  @apply text-base little:w-2/3 lg:text-2xl;
+}
+.text__name {
+  @apply animate-text-anim inline-block;
+}
