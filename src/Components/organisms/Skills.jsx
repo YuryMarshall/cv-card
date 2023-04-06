@@ -4,6 +4,7 @@ import Sphere3D from "../atoms/Sphere.jsx";
 
 import skillsData from "../data/skillsData.js";
 import LogoSkills from "../atoms/LogoSkills.jsx";
+import SkillText from "../atoms/SkillText.jsx";
 
 import styles from "./styles/skills.module.css";
 
@@ -35,13 +36,13 @@ function Skills(props) {
 
   const SkillLogo = function () {
     if (skillState === "HTML5") {
-      return <Sphere3D color="#F99B20" scale={2} />;
+      return <Sphere3D color="#F99B20" scale={1.8} />;
     } else if (skillState === "CSS3") {
-      return <Sphere3D color="#1694F5" scale={2} />;
+      return <Sphere3D color="#1694F5" scale={1.8} />;
     } else if (skillState === "TailwindCSS") {
       return <Sphere3D color="#00FFC4" scale={1.8} />;
     } else if (skillState === "JavaScript") {
-      return <Sphere3D color="#F5FFBD" scale={2} />;
+      return <Sphere3D color="#F5FFBD" scale={1.8} />;
     } else if (skillState === "React") {
       return <Sphere3D color="#17466B" scale={1.8} />;
     } else {
@@ -71,13 +72,7 @@ function Skills(props) {
         <SkillLogo />
         <LogoSkills state={skillState} />
       </div>
-      <p className={styles.skill__text}>
-        {skillState
-          ? skillsData[skillState][props.language]
-          : props.language === "eng"
-          ? "Please select skill of developer upper."
-          : "Пожалуйста, выберете навык разработчика."}
-      </p>
+      <SkillText language={props.language} skill={skillState} />
     </section>
   );
 }
