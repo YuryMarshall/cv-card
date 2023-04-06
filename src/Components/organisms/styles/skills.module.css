@@ -11,14 +11,9 @@
   @apply text-3xl mb-3 cursor-pointer lg:text-4xl;
 }
 .skill__logo__container {
-  @apply relative h-[210px] w-[200px] px-10 flex justify-center items-center little:h-[310px] little:w-[300px] md:w-[400px] md:h-[410px];
+  @apply relative h-[210px] w-[210px] px-10 flex justify-center items-center little:h-[310px] little:w-[300px] md:w-[400px] md:h-[410px];
 }
-.js__logo {
-  @apply md:w-44 w-56 lg:w-80 animate-icons-anim;
-}
-.tw__logo {
-  @apply w-36 animate-icons-anim lg:w-56;
-}
+
 .skill__text {
   @apply mx-10 my-auto px-2 py-2 text-center bg-white bg-opacity-30 text-white text-base rounded-lg mb-5 lg:text-2xl lg:w-2/5;
 }

@@ -1,12 +1,9 @@
 import { React, useState } from "react";
-import HTML5 from "../atoms/Html5.jsx";
-import CSS3 from "../atoms/Css3.jsx";
-import Sphere3D from "../atoms/Sphere.jsx";
-import ReactLogo from "../atoms/Reactlogo.jsx";
-import skillsData from "../data/skillsData.js";
 
-import jslogo from "../../img/jslogo.png";
-import tailwindlogo from "../../img/tailwindlogo.png";
+import Sphere3D from "../atoms/Sphere.jsx";
+
+import skillsData from "../data/skillsData.js";
+import LogoSkills from "../atoms/LogoSkills.jsx";
 
 import styles from "./styles/skills.module.css";
 
@@ -38,15 +35,15 @@ function Skills(props) {
 
   const SkillLogo = function () {
     if (skillState === "HTML5") {
-      return <HTML5 />;
+      return <Sphere3D color="#F99B20" scale={2} />;
     } else if (skillState === "CSS3") {
-      return <CSS3 />;
+      return <Sphere3D color="#1694F5" scale={2} />;
     } else if (skillState === "TailwindCSS") {
       return <Sphere3D color="#00FFC4" scale={1.8} />;
     } else if (skillState === "JavaScript") {
       return <Sphere3D color="#F5FFBD" scale={2} />;
     } else if (skillState === "React") {
-      return <ReactLogo />;
+      return <Sphere3D color="#17466B" scale={1.8} />;
     } else {
       return <div></div>;
     }
@@ -72,18 +69,7 @@ function Skills(props) {
 
       <div className={styles.skill__logo__container}>
         <SkillLogo />
-        <div className="absolute">
-          <img
-            src={jslogo}
-            className={skillState === "JavaScript" ? styles.js__logo : "hidden"}
-          />
-          <img
-            src={tailwindlogo}
-            className={
-              skillState === "TailwindCSS" ? styles.tw__logo : "hidden"
-            }
-          />
-        </div>
+        <LogoSkills state={skillState} />
       </div>
       <p className={styles.skill__text}>
         {skillState

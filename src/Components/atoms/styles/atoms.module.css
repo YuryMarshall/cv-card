@@ -13,3 +13,18 @@
 .lang__button {
   @apply w-12 h-12 mt-2  bg-language bg-no-repeat bg-contain select-none hover:scale-110 active:scale-100 md:hidden;
 }
+.html__logo {
+  @apply little:w-56 w-32  animate-icons-anim;
+}
+.css3__logo {
+  @apply little:w-44 w-24 animate-icons-anim;
+}
+.js__logo {
+  @apply w-44 lg:w-80 animate-icons-anim;
+}
+.tw__logo {
+  @apply w-36 animate-icons-anim lg:w-56;
+}
+.react__logo {
+  @apply w-28 little:w-44 animate-icons-anim;
+}
