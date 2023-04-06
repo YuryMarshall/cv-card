@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-card/static/css/main.00d5a1a0.css",
-    "main.js": "/cv-card/static/js/main.4067fba2.js",
+    "main.css": "/cv-card/static/css/main.383018bd.css",
+    "main.js": "/cv-card/static/js/main.af80152a.js",
     "static/media/Project2.jpg": "/cv-card/static/media/Project2.691777ad3fc0d4cefc8e.jpg",
     "static/media/Project5.jpg": "/cv-card/static/media/Project5.7fcffd5f647903431d04.jpg",
     "static/media/Project1.jpg": "/cv-card/static/media/Project1.b8ec03938cbc397d58ea.jpg",
@@ -12,15 +12,18 @@
     "static/media/neko.png": "/cv-card/static/media/neko.ef5a056e6ea70ed19936.png",
     "static/media/background.jpg": "/cv-card/static/media/background.b8dc78bdbf4e0932a7ea.jpg",
     "static/media/jslogo.png": "/cv-card/static/media/jslogo.7f8751632b42a9932c15.png",
+    "static/media/html5.png": "/cv-card/static/media/html5.df69503917a05a968e58.png",
+    "static/media/react.png": "/cv-card/static/media/react.b37f0a4b7134b3c99d6e.png",
+    "static/media/css3.png": "/cv-card/static/media/css3.9136c3d0e09e0ca2b9ed.png",
     "static/media/tailwindlogo.png": "/cv-card/static/media/tailwindlogo.f4d28909db484b714c90.png",
     "static/media/language-icon.svg": "/cv-card/static/media/language-icon.7d8540b90d16500fce80.svg",
     "static/media/burger.svg": "/cv-card/static/media/burger.164d80e93abbbae57be5.svg",
     "index.html": "/cv-card/index.html",
-    "main.00d5a1a0.css.map": "/cv-card/static/css/main.00d5a1a0.css.map",
-    "main.4067fba2.js.map": "/cv-card/static/js/main.4067fba2.js.map"
+    "main.383018bd.css.map": "/cv-card/static/css/main.383018bd.css.map",
+    "main.af80152a.js.map": "/cv-card/static/js/main.af80152a.js.map"
   },
   "entrypoints": [
-    "static/css/main.00d5a1a0.css",
-    "static/js/main.4067fba2.js"
+    "static/css/main.383018bd.css",
+    "static/js/main.af80152a.js"
   ]
 }
