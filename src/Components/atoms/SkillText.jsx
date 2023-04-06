@@ -3,7 +3,7 @@ import styles from "../organisms/styles/skills.module.css";
 import skillsData from "../data/skillsData";
 
 function SkillText(props) {
-  const LangCheck = () => (props.language ? props.language : "eng");
+  const LangCheck = () => (props.language ? props.language : "ru");
   return (
     <p className={styles.skill__text}>
       {props.skill
