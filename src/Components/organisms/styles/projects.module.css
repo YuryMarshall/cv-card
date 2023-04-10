@@ -8,7 +8,7 @@
   @apply cursor-grab overflow-hidden  w-4/5 h-3/5 lg:w-full lg:px-10  border-y-2 border-white touch-pan-x;
 }
 .projects__inner__carousel {
-  @apply flex h-full justify-center;
+  @apply flex h-full lg:justify-center;
 }
 .project__container {
   @apply min-w-full flex flex-col items-center justify-center lg:min-w-fit lg:mr-10;
