@@ -60,6 +60,7 @@ function Introduce(props) {
               className={styles.right__cat__img}
               id="neko"
               onClick={catHandler}
+              alt="Cat image"
             />
           </div>
         </div>

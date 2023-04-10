@@ -13,31 +13,39 @@ function LogoSkills(props) {
     case "HTML5":
       return (
         <div className="absolute">
-          <img src={html5logo} className={styles.html__logo} />
+          <img src={html5logo} className={styles.html__logo} alt="HTML5 logo" />
         </div>
       );
     case "CSS3":
       return (
         <div className="absolute">
-          <img src={css3logo} className={styles.css3__logo} />
+          <img src={css3logo} className={styles.css3__logo} alt="CSS3 logo" />
         </div>
       );
     case "TailwindCSS":
       return (
         <div className="absolute">
-          <img src={tailwindlogo} className={styles.tw__logo} />
+          <img
+            src={tailwindlogo}
+            className={styles.tw__logo}
+            alt="TailwindCSS logo"
+          />
         </div>
       );
     case "JavaScript":
       return (
         <div className="absolute">
-          <img src={jslogo} className={styles.js__logo} />
+          <img src={jslogo} className={styles.js__logo} alt="JavaScript logo" />
         </div>
       );
     case "React":
       return (
         <div className="absolute">
-          <img src={reactlogo} className={styles.react__logo} />
+          <img
+            src={reactlogo}
+            className={styles.react__logo}
+            alt="React logo"
+          />
         </div>
       );
     default:
