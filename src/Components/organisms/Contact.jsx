@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 
 import Map from "../atoms/Map.jsx";
 import LoadingSVG from "../atoms/LoadingSvg.jsx";
+import SuccsessMessage from "../atoms/SuccsessMessage.jsx";
 
 import styles from "./styles/contact.module.css";
 
@@ -10,25 +11,6 @@ function Contact(props) {
   const form = useRef();
   const [succsess, setSuccsess] = useState(null);
   const [click, setClick] = useState(false);
-
-  const SuccsessMesage = () => {
-    if (succsess && props.language === "eng") {
-      return (
-        <p className="text-base">
-          Your message has been sent. Developer will revert as soon as possible
-        </p>
-      );
-    } else if (succsess && props.language === "ru") {
-      return (
-        <p className="text-base">
-          Ваше сообщение отправлено. Разработчик свяжется c Вами в ближайшее
-          время
-        </p>
-      );
-    } else if (!succsess && click) {
-      return <LoadingSVG />;
-    }
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -70,12 +52,11 @@ function Contact(props) {
           <input
             type="email"
             required
-            placeholder="Email@kyoto.jp"
+            placeholder="email@kyoto.jp"
             name="email"
             className={styles.form__contact__info__input}
           />
           <textarea
-            id=""
             required
             cols="10"
             rows="4"
@@ -88,7 +69,11 @@ function Contact(props) {
           <button type="submit" className={styles.form__button}>
             {props.language === "eng" ? "Send" : "Отправить"}
           </button>
-          <SuccsessMesage />
+          <SuccsessMessage
+            status={succsess}
+            language={props.language}
+            clickStatus={click}
+          />
         </form>
       </div>
       <div className={styles.map__container}>
