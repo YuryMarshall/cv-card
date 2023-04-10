@@ -1,6 +1,7 @@
 import React from "react";
-import styles from "../organisms/styles/skills.module.css";
 import skillsData from "../data/skillsData";
+
+import styles from "../organisms/styles/skills.module.css";
 
 function SkillText(props) {
   const LangCheck = () => (props.language ? props.language : "ru");

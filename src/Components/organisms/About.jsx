@@ -1,7 +1,9 @@
 import React from "react";
+
 import CubeCanvas from "../molecules/CubeCanvas.jsx";
 import ButtonNext from "../atoms/Button.jsx";
 import aboutData from "../data/aboutData.js";
+
 import styles from "./styles/about.module.css";
 
 function About(props) {

@@ -1,9 +1,11 @@
 import React from "react";
+import { useRef } from "react";
+
 import neko from "../../img/neko.png";
 import nekoSecret from "../../img/neko-secret.PNG";
+
 import Sphere3D from "../atoms/Sphere.jsx";
 import ButtonNext from "../atoms/Button.jsx";
-import { useRef } from "react";
 
 import styles from "./styles/intro.module.css";
 

@@ -1,6 +1,7 @@
 import { React, useState, useLayoutEffect, useRef } from "react";
-import images from "../data/imagesData";
 import { motion } from "framer-motion";
+
+import images from "../data/imagesData";
 
 import styles from "./styles/projects.module.css";
 

@@ -1,11 +1,12 @@
 import React from "react";
-import styles from "./styles/atoms.module.css";
 
 import html5logo from "../../img/html5.png";
 import tailwindlogo from "../../img/tailwindlogo.png";
 import jslogo from "../../img/jslogo.png";
 import css3logo from "../../img/css3.png";
 import reactlogo from "../../img/react.png";
+
+import styles from "./styles/atoms.module.css";
 
 function LogoSkills(props) {
   switch (props.state) {
