@@ -20,7 +20,7 @@
   @apply w-screen  h-80 little:w-full little:h-44 sm:h-80 md:h-96 lg:h-[600px];
 }
 .right__cat__img {
-  @apply absolute top-5 right-24 animate-neko-img w-[250px] little:right-auto little:top-0 little:w-56 sm:top-5 sm:right-1/4 md:right-1/4 md:w-[350px] lg:w-[450px]  lg:top-14;
+  @apply absolute top-5 right-24 animate-neko-img w-[250px] little:right-auto little:top-0 little:w-56 sm:top-5 sm:right-1/4 md:right-1/4 md:w-[350px] lg:w-[450px]  lg:top-14 cursor-pointer;
 }
 .right__cat__text__container {
   @apply absolute top-52 right-36 little:right-10 little:-top-20 sm:right-24 sm:-top-10 lg:top-52 lg:right-9;

@@ -10,7 +10,7 @@ import Projects from "./Components/organisms/Projects.jsx";
 function App() {
   const [lang, setLang] = useState(localStorage.getItem("lang"));
   return (
-    <div className="snap-mandatory font-montser bg-background  snap-y h-screen scroll-smooth overflow-x-hidden overflow-y-auto scrollbar-none font-bold text-3xl text-white">
+    <div className="snap-mandatory font-montser bg-background snap-y h-screen scroll-smooth overflow-x-hidden overflow-y-auto scrollbar-none font-bold text-3xl text-white lg:bg-cover">
       <Navbar language={lang} langHandler={setLang} />
       <Introduce language={lang} />
       <About language={lang} />
