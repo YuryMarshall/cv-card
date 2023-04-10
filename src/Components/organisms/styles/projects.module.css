@@ -5,7 +5,7 @@
   @apply mb-20 px-10 w-full text-2xl little:text-3xl lg:text-4xl;
 }
 .projects__carousel {
-  @apply cursor-grab overflow-hidden  w-4/5 h-3/5 lg:w-full lg:px-10  border-y-2 border-white;
+  @apply cursor-grab overflow-hidden  w-4/5 h-3/5 lg:w-full lg:px-10  border-y-2 border-white touch-pan-x;
 }
 .projects__inner__carousel {
   @apply flex h-full justify-center;
