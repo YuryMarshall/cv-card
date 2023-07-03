@@ -11,7 +11,7 @@
   @apply text-2xl mb-3 cursor-pointer lg:text-4xl;
 }
 .skill__logo__container {
-  @apply relative    h-[210px] w-[210px] px-10 flex justify-center items-center little:h-[310px] little:w-[300px] md:w-[400px] md:h-[410px];
+  @apply relative h-[210px] w-[210px] px-10 flex justify-center items-center little:h-[310px] little:w-[300px] md:w-[400px] md:h-[410px];
 }
 
 .skill__text {

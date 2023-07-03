@@ -3,8 +3,15 @@ import image2 from "../../img/Projects/Project2.jpg";
 import image3 from "../../img/Projects/Project3.jpg";
 import image4 from "../../img/Projects/Project4.jpg";
 import image5 from "../../img/Projects/Project5.jpg";
+import newProject from "../../img/Projects/Project0.jpg";
 
 const imgData = [
+  {
+    link: newProject,
+    id: 0,
+    src: "https://yurymarshall.github.io/to-do/",
+    tag: "Todo List",
+  },
   {
     link: image1,
     id: 1,
