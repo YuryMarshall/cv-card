@@ -9,8 +9,6 @@ function Projects(props) {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
   useLayoutEffect(() => {
-    console.log(carousel.current.scrollWidth);
-    console.log(carousel.current.offsetWidth);
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
   return (
@@ -36,6 +34,9 @@ function Projects(props) {
                 <a href={image.src} className={styles.project__link}>
                   {image.tag}
                 </a>
+                <p className="w-4/5 text-center text-base h-10">
+                  {props.language === "eng" ? image.descENG : image.descRu}
+                </p>
               </motion.div>
             );
           })}
