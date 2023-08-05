@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/cv-card/static/css/main.bb67f507.css",
-    "main.js": "/cv-card/static/js/main.bea23fdf.js",
+    "main.js": "/cv-card/static/js/main.b8137a9d.js",
     "static/media/logo.PNG": "/cv-card/static/media/logo.617cad1633267fac5267.PNG",
     "static/media/neko-secret.PNG": "/cv-card/static/media/neko-secret.3326b204a6df8d6cebfa.PNG",
     "static/media/neko.png": "/cv-card/static/media/neko.ef5a056e6ea70ed19936.png",
-    "static/media/Project2.png": "/cv-card/static/media/Project2.394219fe05b38eff8630.png",
-    "static/media/Project5.png": "/cv-card/static/media/Project5.e34674fdda32d418ca72.png",
+    "static/media/Project0.png": "/cv-card/static/media/Project0.ee6bf0d960b8ba325cb3.png",
+    "static/media/Project3.png": "/cv-card/static/media/Project3.394219fe05b38eff8630.png",
+    "static/media/Project6.png": "/cv-card/static/media/Project6.e34674fdda32d418ca72.png",
     "static/media/background.jpg": "/cv-card/static/media/background.b8dc78bdbf4e0932a7ea.jpg",
-    "static/media/Project0.png": "/cv-card/static/media/Project0.c39bcd00569f7ded9dea.png",
-    "static/media/Project3.png": "/cv-card/static/media/Project3.7b3d8c0d7d1cc93e8bc9.png",
-    "static/media/Project1.png": "/cv-card/static/media/Project1.6e7d5047cd73b6bc273b.png",
+    "static/media/Project1.png": "/cv-card/static/media/Project1.c39bcd00569f7ded9dea.png",
+    "static/media/Project4.png": "/cv-card/static/media/Project4.7b3d8c0d7d1cc93e8bc9.png",
+    "static/media/Project2.png": "/cv-card/static/media/Project2.6e7d5047cd73b6bc273b.png",
     "static/media/jslogo.png": "/cv-card/static/media/jslogo.7f8751632b42a9932c15.png",
     "static/media/html5.png": "/cv-card/static/media/html5.df69503917a05a968e58.png",
-    "static/media/Project4.png": "/cv-card/static/media/Project4.9f8ee040dfe6dacea0d0.png",
+    "static/media/Project5.png": "/cv-card/static/media/Project5.9f8ee040dfe6dacea0d0.png",
     "static/media/react.png": "/cv-card/static/media/react.b37f0a4b7134b3c99d6e.png",
     "static/media/css3.png": "/cv-card/static/media/css3.9136c3d0e09e0ca2b9ed.png",
     "static/media/tailwindlogo.png": "/cv-card/static/media/tailwindlogo.f4d28909db484b714c90.png",
@@ -21,10 +22,10 @@
     "static/media/burger.svg": "/cv-card/static/media/burger.164d80e93abbbae57be5.svg",
     "index.html": "/cv-card/index.html",
     "main.bb67f507.css.map": "/cv-card/static/css/main.bb67f507.css.map",
-    "main.bea23fdf.js.map": "/cv-card/static/js/main.bea23fdf.js.map"
+    "main.b8137a9d.js.map": "/cv-card/static/js/main.b8137a9d.js.map"
   },
   "entrypoints": [
     "static/css/main.bb67f507.css",
-    "static/js/main.bea23fdf.js"
+    "static/js/main.b8137a9d.js"
   ]
 }
