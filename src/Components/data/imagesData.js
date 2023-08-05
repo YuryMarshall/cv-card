@@ -1,14 +1,23 @@
-import image1 from "../../img/Projects/Project1.png";
-import image2 from "../../img/Projects/Project2.png";
-import image3 from "../../img/Projects/Project3.png";
-import image4 from "../../img/Projects/Project4.png";
-import image5 from "../../img/Projects/Project5.png";
-import newProject from "../../img/Projects/Project0.png";
+import image1 from "../../img/Projects/Project2.png";
+import image2 from "../../img/Projects/Project3.png";
+import image3 from "../../img/Projects/Project4.png";
+import image4 from "../../img/Projects/Project5.png";
+import image5 from "../../img/Projects/Project6.png";
+import image6 from "../../img/Projects/Project1.png";
+import image0 from "../../img/Projects/Project0.png";
 
 const imgData = [
   {
-    link: newProject,
-    id: 0,
+    link: image0,
+    id: 1,
+    src: "https://yurymarshall.github.io/japan-web/",
+    tag: "ТВОЙ JAPAN",
+    descENG: "Pet project to train React and TS",
+    descRu: "Пет проект, React и TypeScript",
+  },
+  {
+    link: image6,
+    id: 1,
     src: "https://yurymarshall.github.io/to-do/",
     tag: "Todo List",
     descENG: "To-do list for SolarLab courses exam.",
@@ -16,7 +25,7 @@ const imgData = [
   },
   {
     link: image1,
-    id: 1,
+    id: 2,
     src: "https://yurymarshall.github.io/getyourweather/",
     tag: "Weather app",
     descENG: "Final examination project for CDG courses",
@@ -24,7 +33,7 @@ const imgData = [
   },
   {
     link: image2,
-    id: 2,
+    id: 3,
     src: "https://yurymarshall.github.io/card-game/",
     tag: "Card-game",
     descENG: "Homework for CDG courses",
@@ -32,7 +41,7 @@ const imgData = [
   },
   {
     link: image3,
-    id: 3,
+    id: 4,
     src: "https://github.com/YuryMarshall/react-academy/tree/main/project1",
     tag: "Developer CV",
     descENG: "Homework for CDG courses",
@@ -40,7 +49,7 @@ const imgData = [
   },
   {
     link: image4,
-    id: 4,
+    id: 5,
     src: "https://github.com/YuryMarshall/react-academy/tree/main/Lesson6/tic-tac",
     tag: "Tic-tac-toe game",
     descENG: "Homework for CDG courses",
@@ -48,7 +57,7 @@ const imgData = [
   },
   {
     link: image5,
-    id: 5,
+    id: 6,
     src: "https://github.com/YuryMarshall/SCANDI",
     tag: "SCANDI web site",
     descENG: "Project for HTMLAcademy maraphone.",
