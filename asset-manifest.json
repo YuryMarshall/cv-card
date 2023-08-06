@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv-card/static/css/main.bb67f507.css",
+    "main.css": "/cv-card/static/css/main.30173a50.css",
     "main.js": "/cv-card/static/js/main.b8137a9d.js",
     "static/media/logo.PNG": "/cv-card/static/media/logo.617cad1633267fac5267.PNG",
     "static/media/neko-secret.PNG": "/cv-card/static/media/neko-secret.3326b204a6df8d6cebfa.PNG",
@@ -21,11 +21,11 @@
     "static/media/language-icon.svg": "/cv-card/static/media/language-icon.7d8540b90d16500fce80.svg",
     "static/media/burger.svg": "/cv-card/static/media/burger.164d80e93abbbae57be5.svg",
     "index.html": "/cv-card/index.html",
-    "main.bb67f507.css.map": "/cv-card/static/css/main.bb67f507.css.map",
+    "main.30173a50.css.map": "/cv-card/static/css/main.30173a50.css.map",
     "main.b8137a9d.js.map": "/cv-card/static/js/main.b8137a9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb67f507.css",
+    "static/css/main.30173a50.css",
     "static/js/main.b8137a9d.js"
   ]
 }
